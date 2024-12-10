@@ -5,7 +5,7 @@ import { PrivyProvider } from '@privy-io/react-auth';
 export default function Providers({ children }) {
   return (
     <PrivyProvider
-      appId="YOUR_PRIVY_APP_ID"
+      appId="cm42dxh2l0121wbahu9v1hhvl"
       config={{
         loginMethods: ['email', 'wallet'],
         appearance: {
